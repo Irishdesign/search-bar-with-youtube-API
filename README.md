@@ -1,0 +1,2 @@
+- you can revise your own API_KEY on ./src/utilitise/getYTdata.ts
+- Enter key words in search bar and it would fetch google youtube API (https://developers.google.com/youtube/v3/docs/search/list).

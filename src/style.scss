@@ -1,0 +1,48 @@
+$nav-red: #ed6258;
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.searchBar {
+    color: #fff;
+    background-color: $nav-red;
+    height: 55px;
+    margin-bottom: 20px;
+    .searchInput {
+        border-bottom: 2px solid #fff;
+        width: 40%;
+        height: 70%;
+        min-width: 240px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-end;
+        input {
+            border: unset;
+            outline-style: none;
+            background: $nav-red;
+            color: #fff;
+            width: 100%;
+            font-size: 20px;
+            margin-bottom: 5px;
+            margin-left: 10px;
+        }
+        .searchBtn {
+            cursor: pointer;
+        }
+    }
+}
+.pages {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+.progress {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+}
